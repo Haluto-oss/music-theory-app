@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="ja">
+<html lang="ja" xmlns:th="http://www.thymeleaf.org">
 <head>
     <meta charset="UTF-8">
     <title>Music Theory App</title>
@@ -7,5 +7,11 @@
 <body>
     <h1>こんにちは、世界！ (Hello, World!)</h1>
     <p>音楽理論アプリへようこそ。</p>
+
+    <hr>
+
+    <h2>Spotifyから取得した情報：</h2>
+    <pre><code th:text="${trackInfo}">ここに曲情報が表示されます</code></pre>
+
 </body>
 </html>

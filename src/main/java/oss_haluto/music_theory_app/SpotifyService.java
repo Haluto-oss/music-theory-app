@@ -57,7 +57,7 @@ public class SpotifyService {
     // 特定の曲の情報を取得するメソッド
     public String getTrackInfo() {
         // Spotifyの曲ID（YOASOBI - アイドル）
-        String trackId = "4J4w4H1iA31T5J2s2g54Tf"; 
+        String trackId = "2_mKpmcTNEk2Y7iH3lP5l_";
 
         try {
             String accessToken = getAccessToken(); // まずアクセストークンを取得

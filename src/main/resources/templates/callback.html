@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="ja" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Callback</title>
+</head>
+<body>
+    <h1>Spotifyからのコールバック</h1>
+    <p>ログインに成功し、以下の一時的なコードを受け取りました。</p>
+    <p><strong>Authorization Code:</strong> <span th:text="${authorizationCode}"></span></p>
+    <hr>
+    <p>次のステップでは、このコードを使って、ユーザー情報にアクセスするための本物の「アクセストークン」を取得します。</p>
+    <a href="/">トップに戻る</a>
+</body>
+</html>

@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="ja" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Result</title>
+</head>
+<body>
+    <h1>Spotify APIからの最終結果</h1>
+    <p>おめでとうございます！ついに曲情報の取得に成功しました。</p>
+    <hr>
+    <h2>取得したJSONデータ:</h2>
+    <pre><code th:text="${trackInfo}">ここに曲情報が表示されます</code></pre>
+    <br>
+    <a href="/">最初に戻る</a>
+</body>
+</html>
